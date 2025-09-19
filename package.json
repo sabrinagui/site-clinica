@@ -1,0 +1,20 @@
+{
+  "name": "site-clinica",
+  "version": "1.0.0",
+  "description": "Sistema de clínica com Laravel (backend) e React (frontend)",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "install-frontend": "cd frontend && npm install",
+    "start-frontend": "cd frontend && npm start",
+    "start-backend": "cd backend && php artisan serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sabrinagui/site-clinica.git"
+  },
+  "author": "sabrinagui",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
