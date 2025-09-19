@@ -1,0 +1,16 @@
+backend/
+*.php
+composer.json
+composer.lock
+artisan
+.env
+database/
+storage/
+bootstrap/
+config/
+routes/
+tests/
+vendor/
+.editorconfig
+phpunit.xml
+README.md
